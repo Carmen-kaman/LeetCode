@@ -10,7 +10,7 @@ package Algorithm;
 public class Question9 {
 
     public static void main(String[] args) {
-        System.out.println(new Question9().isPalindrome(11));
+        System.out.println(new Question9().solution(10));
     }
 
     public boolean isPalindrome(int x) {
@@ -32,5 +32,21 @@ public class Question9 {
             }
             return true;
         }
+    }
+
+    public boolean solution(int x){
+        int revertedNumber = 0;
+        if (x>= 0 && x <10){
+            return true;
+        } else if (x<10) {
+            return false;
+        }else {
+            int tmp = x;
+            while (tmp != 0){
+                revertedNumber = revertedNumber * 10 + tmp % 10;
+                tmp /= 10;
+            }
+        }
+        return (x == revertedNumber);
     }
 }
