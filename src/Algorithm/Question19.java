@@ -14,7 +14,7 @@ import java.util.List;
 public class Question19 {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
+//        head.next = new ListNode(2);
 //        head.next.next = new ListNode(3);
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
@@ -23,6 +23,9 @@ public class Question19 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         HashMap<Integer, ListNode> mapList = new HashMap<>();
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        mapList.put(0, dummy);
         ListNode tmp = head;
         int len = 0;
         while (tmp != null) {
@@ -34,11 +37,10 @@ public class Question19 {
             return head;
         } else {
             if (n == 1) {
-
-                return head.next;
-            } else if (n == len) {
                 mapList.get(len - 1).next = null;
-                return head;
+                return dummy.next;
+            } else if (n == len) {
+                return head.next;
             } else {
                 int index = len - n + 1;
                 tmp = mapList.get(index).next;
