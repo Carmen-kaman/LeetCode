@@ -17,9 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithm/Question20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="599">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#582#583#0" expanded="true" />
               </folding>
@@ -104,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569640665912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569641298965" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -236,12 +237,12 @@
       <workItem from="1569170008895" duration="8623000" />
       <workItem from="1569275276003" duration="3331000" />
       <workItem from="1569550198500" duration="2502000" />
-      <workItem from="1569637595338" duration="2837000" />
+      <workItem from="1569637595338" duration="3542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45668000" />
+    <option name="totallyTimeSpent" value="46373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="534" y="23" width="950" height="877" extended-state="0" />
@@ -256,8 +257,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3732484" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40359896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3732484" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40254778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -283,6 +284,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Algorithm/Question20.java</url>
+          <line>24</line>
+          <properties class="Algorithm.Question20" method="isValid">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
@@ -440,9 +455,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/Question20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="599">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#582#583#0" expanded="true" />
           </folding>
