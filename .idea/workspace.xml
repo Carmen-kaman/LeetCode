@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7fb50-8ba2-4a8b-adee-9f16550f3045" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Question20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Algorithm/Question12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Algorithm/Question12.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithm/Question21.java">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/Question20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="56" column="26" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding>
-                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,11 +61,12 @@
         <option value="$PROJECT_DIR$/src/Algorithm/Question14.java" />
         <option value="$PROJECT_DIR$/src/Algorithm/Question12.java" />
         <option value="$PROJECT_DIR$/src/Algorithm/Question21.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Question20.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="652" />
+    <option name="x" value="696" />
     <option name="y" value="23" />
     <option name="width" value="788" />
     <option name="height" value="877" />
@@ -72,6 +76,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,14 +100,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569552614369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569640482579" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -121,22 +125,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question21">
+  <component name="RunManager" selected="Application.Question20">
     <configuration name="Question12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.Question12" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Question13" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -163,6 +154,19 @@
     </configuration>
     <configuration name="Question19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.Question19" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Question20" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -207,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question20" />
         <item itemvalue="Application.Question21" />
         <item itemvalue="Application.Question12" />
         <item itemvalue="Application.Question14" />
         <item itemvalue="Application.Question19" />
-        <item itemvalue="Application.Question13" />
       </list>
     </recent_temporary>
   </component>
@@ -232,18 +236,19 @@
       <workItem from="1569086432973" duration="6432000" />
       <workItem from="1569170008895" duration="8623000" />
       <workItem from="1569275276003" duration="3331000" />
-      <workItem from="1569550198500" duration="2320000" />
+      <workItem from="1569550198500" duration="2502000" />
+      <workItem from="1569637595338" duration="2546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42649000" />
+    <option name="totallyTimeSpent" value="45377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="652" y="23" width="788" height="877" extended-state="0" />
+    <frame x="696" y="23" width="788" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23119777" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -252,7 +257,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3732484" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3732484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40359896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,10 +430,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/Question21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Question20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
           </folding>
         </state>
       </provider>
