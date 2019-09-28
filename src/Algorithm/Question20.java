@@ -18,7 +18,7 @@ import java.util.Stack;
 
 public class Question20 {
     public static void main(String[] args) {
-        System.out.println(new Question20().isValid("  "));
+        System.out.println(new Question20().isValid("]]"));
     }
 
     public boolean isValid(String s) {
@@ -29,7 +29,9 @@ public class Question20 {
             Stack<Character> res = new Stack<>();
             char[] c = s.toCharArray();
             for (int i = 0; i < c.length; i++) {
-                if (c[i] == '(' || c[i] == '{' || c[i] == '[') {
+                if (res.isEmpty()){
+                    res.push(c[i]);
+                }else if (c[i] == '(' || c[i] == '{' || c[i] == '[') {
                     res.push(c[i]);
                 } else {
                     char tmp = res.peek();
