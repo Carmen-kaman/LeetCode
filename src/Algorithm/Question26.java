@@ -22,14 +22,18 @@ public class Question26 {
         }else {
             int res = 0;
             int marker = Integer.MAX_VALUE;
+            int j = -1;
             for (int i = 0; i < nums.length; i++) {
                 if (res == 0){
                     ++res;
+                    j = i;
                     marker = nums[i];
                 }else {
                     if (nums[i] != marker){
                         ++res;
                         marker = nums[i];
+                        nums[j+1] = nums[i];
+                        ++j;
                     }
                 }
             }
