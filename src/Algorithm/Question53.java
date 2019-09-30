@@ -21,19 +21,15 @@ public class Question53 {
         }else if (nums.length ==1){
             return nums[0];
         }else {
-            int max = -1;
-            int marker = 0;
+            int max = Integer.MIN_VALUE;
             int tmp = 0;
             for (int i = 0; i < nums.length; i++) {
-                if (tmp + nums[i] < 0){
-                    i = marker;
-                    if (max < tmp){
-                        max = tmp;
-                        tmp = 0;
-                        ++marker;
-                    }
-                }else {
-                    tmp = tmp+nums[i];
+                tmp = tmp + nums[i];
+                if (max < tmp){
+                    max = tmp;
+                }
+                if (tmp < 0){
+                    tmp = 0;
                 }
             }
             return (max > tmp)?max:tmp;

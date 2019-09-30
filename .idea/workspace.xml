@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7fb50-8ba2-4a8b-adee-9f16550f3045" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Algorithm/Question12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Algorithm/Question12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Question53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Question53.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithm/Question53.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="299">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569813902644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569814947244" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -227,15 +227,16 @@
       <workItem from="1569550198500" duration="2502000" />
       <workItem from="1569637595338" duration="3599000" />
       <workItem from="1569724690535" duration="1167000" />
-      <workItem from="1569810602107" duration="3017000" />
+      <workItem from="1569810602107" duration="3921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50614000" />
+    <option name="totallyTimeSpent" value="51518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="572" y="23" width="832" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23017621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/Question53.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="299">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
