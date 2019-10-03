@@ -18,14 +18,17 @@ public class Question189 {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
         int[] res = new int[len];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = nums[i];
+        }
 
         if (k % len != 0) {
             k = k % len;
             for (int i = 0; i < nums.length; i++) {
                 int index = (i+k)%len;
-                res[i] = nums[index];
+                nums[i] = res[index];
             }
-            nums = res;
+
         }
     }
 
