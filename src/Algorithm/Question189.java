@@ -26,7 +26,7 @@ public class Question189 {
             k = k % len;
             for (int i = 0; i < nums.length; i++) {
                 int index = (i+k)%len;
-                nums[i] = res[index];
+                nums[index] = res[i];
             }
 
         }
